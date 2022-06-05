@@ -35,7 +35,7 @@ function listBelanjaan (param1) {
 function totalBelanjaan (param1){
   let harga=0;
   for(let counter=0;counter<param1.length;param1++){
-    harga = (param1[counter].harga*2+param1[counter+1].harga+param1[counter+2].harga*8);
+    harga = (param1[counter].harga*2)+(param1[counter+1].harga)+(param1[counter+2].harga*8);
   }
   return harga;
 }
